@@ -259,6 +259,10 @@ body {
   font-size: 1.5vw !important;
 }
 
+.carousel {
+  margin-bottom: 25px;
+}
+
 .background-container {
   position: absolute;
   margin: 0px;
