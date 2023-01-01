@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.home {
+  background-color: red;
+}
+
+.main-links-container {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+.main-links-container .main-links {
+  box-shadow: 1px 1px 5px 1px grey;
+  width: 33%;
+  height: auto;
+  margin: 5px;
+  background-color: bisque;
+  position: relative;
+}
+.main-links-container .main-links img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.main-links-container .main-links p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  color: whitesmoke;
+  font-size: 3.5vw;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin: auto;
+  text-shadow: 2px 2px 5px black;
+}
+.main-links-container .main-links .registered-students {
+  font-size: 2.5vw;
+}
+
+.news-section {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  position: relative;
+  margin-bottom: 25px;
+}
+.news-section .news-header {
+  color: #3878ac;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.123);
+}
+.news-section .news-header h1 {
+  padding: 20px;
+  padding-right: 25px;
+  margin: 0px;
+  font-weight: 600;
+}
+.news-section .news-header p {
+  padding: 20px;
+  padding-left: 25px;
+  font-size: larger;
+}
+.news-section .news-header img {
+  width: 15px;
+}
+.news-section .news-card-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.news-section .news-card-wrapper .news-items {
+  display: flex;
+  flex-direction: row;
+}
+.news-section .news-card-wrapper .news-items .news-item-card {
+  height: 100%;
+  width: 24%;
+  margin: 5px;
+}
+.news-section .news-card-wrapper .news-items .news-item-card img {
+  width: 100%;
+}
+.news-section .news-card-wrapper .news-items .news-item-card:first-child {
+  margin-right: 25px;
+}
+.news-section .news-card-wrapper .news-items .news-item-card:last-child {
+  margin-left: 25px;
+}
+
+.events-seminars {
+  display: flex;
+  flex-direction: row;
+  height: min-content;
+  margin-bottom: 50px;
+  position: relative;
+}
+.events-seminars .header {
+  color: #3878ac;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.123);
+}
+.events-seminars .header h1 {
+  padding: 20px;
+  padding-right: 25px;
+  margin: 0px;
+  font-weight: 600;
+}
+.events-seminars .header p {
+  padding: 20px;
+  padding-left: 25px;
+  font-size: larger;
+}
+.events-seminars .header img {
+  width: 15px;
+}
+.events-seminars .events {
+  width: 49%;
+  margin-left: 13px;
+  height: min-content;
+  background-color: white;
+}
+.events-seminars .events .event-list {
+  display: flex;
+  flex-direction: column;
+}
+.events-seminars .events .event-list .event {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.events-seminars .events .event-list .event .right {
+  width: 20%;
+  border: 1px solid rgba(128, 128, 128, 0.123);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px;
+}
+.events-seminars .events .event-list .event .right p {
+  margin: 0px;
+  margin-left: 20px;
+}
+.events-seminars .events .event-list .event .right h2 {
+  margin: 0px;
+  margin-left: 20px;
+  color: #29a9dd;
+  padding: 0px;
+}
+.events-seminars .events .event-list .event .right small {
+  margin-left: 20px;
+  color: #b0c0d1;
+}
+.events-seminars .events .event-list .event .left {
+  padding: 10px 40px;
+  width: 80%;
+  border: 1px solid rgba(128, 128, 128, 0.123);
+}
+.events-seminars .events .event-list .event .left h4 {
+  color: #3878ac;
+  font-size: 1.1vw;
+  margin: 0px;
+  margin-bottom: 4px;
+}
+.events-seminars .events .event-list .event .left p {
+  margin-top: 4px;
+  margin-bottom: 0px;
+  color: #2d354d;
+  font-weight: 200;
+  font-size: medium;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.events-seminars .seminars {
+  margin-right: 13px;
+  background-color: #315277;
+  width: 49%;
+}
+.events-seminars .seminars .header {
+  border-bottom: 1px solid white;
+  color: white;
+}
+.events-seminars .seminars .seminar-list {
+  display: flex;
+  flex-direction: column;
+}
+.events-seminars .seminars .seminar-list .seminar {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.events-seminars .seminars .seminar-list .seminar .right {
+  width: 20%;
+  border: 1px solid rgba(128, 128, 128, 0.123);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px;
+}
+.events-seminars .seminars .seminar-list .seminar .right p {
+  color: white;
+  margin: 0px;
+  margin-left: 20px;
+}
+.events-seminars .seminars .seminar-list .seminar .right h2 {
+  margin: 0px;
+  margin-left: 20px;
+  color: white;
+  padding: 0px;
+}
+.events-seminars .seminars .seminar-list .seminar .right small {
+  margin-left: 20px;
+  color: #b0c0d1;
+}
+.events-seminars .seminars .seminar-list .seminar .left {
+  padding: 10px 40px;
+  width: 80%;
+  border: 1px solid rgba(128, 128, 128, 0.123);
+}
+.events-seminars .seminars .seminar-list .seminar .left h4 {
+  color: white;
+  font-size: 1.1vw;
+  margin: 0px;
+  margin-bottom: 4px;
+}
+.events-seminars .seminars .seminar-list .seminar .left p {
+  margin-top: 4px;
+  margin-bottom: 0px;
+  color: white;
+  font-weight: 200;
+  font-size: medium;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+body {
+  direction: rtl;
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  letter-spacing: unset;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 4%;
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+}
+
+.banner-text {
+  font-size: 1.5vw !important;
+}
+
+.background-container {
+  position: absolute;
+  margin: 0px;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 265px;
+  background-color: white;
+  z-index: -10;
+}
+
+.site-versions {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 0;
+}
+.site-versions p {
+  margin-right: 20px;
+}
+
+nav {
+  height: 120px;
+}
+nav .top-nav-container {
+  display: flex;
+}
+nav .top-nav-container .top-right-nav {
+  justify-content: start;
+  width: 70%;
+}
+nav .top-nav-container .top-right-nav .ecc-logo {
+  height: 50px;
+}
+nav .top-nav-container .top-left-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+nav .top-nav-container .top-left-nav .technion-logo {
+  height: 50px;
+}
+nav .top-nav-container .top-left-nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+nav .top-nav-container .top-left-nav ul li {
+  list-style: none;
+  margin-left: 5px;
+}
+nav .nav-links ul {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0px;
+}
+nav .nav-links ul li {
+  list-style-type: none;
+}
+nav .nav-links ul li a {
+  color: #106549;
+  text-decoration: none;
+}
+nav .nav-links ul li a:active {
+  color: #106549;
+}
+nav .nav-links ul li a:visited {
+  color: #002147;
+}
+
+/*# sourceMappingURL=index.css.map */

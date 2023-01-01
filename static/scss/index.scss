@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import './_first-degree.scss';
+@import './indexv2';
+
+$text-color: #002147;
+
+body {
+    direction: rtl;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    letter-spacing: unset;
+    padding-left: 12%;
+    padding-right: 12% ;
+    padding-top: 4%;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+}
+
+.banner-text {
+    font-size: 1.5vw !important;
+}
+
+.background-container {
+    position: absolute;
+    margin: 0px;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 265px;
+    background-color: white;
+    z-index: -10;
+
+}
+
+.site-versions {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top:0;
+    p {
+        margin-right: 20px;
+    }
+}
+nav {
+    
+    height: 120px;
+
+    .top-nav-container {
+        display: flex;
+        .top-right-nav {
+            justify-content: start;
+            width: 70%;
+            .ecc-logo { 
+                height: 50px;
+                
+            }
+        }
+
+        .top-left-nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            .technion-logo {
+                height: 50px;
+                
+            }
+
+            ul {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                li {
+                    list-style: none;
+                    margin-left: 5px;
+                }
+            }
+        }
+        
+
+    }
+    .nav-links {
+        ul {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-between;
+            padding: 0px;
+            li {
+                list-style-type: none;
+
+                a {
+                    
+                    color:#106549 ;
+                    text-decoration: none;
+                }
+
+                a:active {
+                    color:#106549;
+                }
+
+                a:visited {
+                    color:$text-color;
+                }
+
+
+            }
+        }
+    }
+
+    
+}
