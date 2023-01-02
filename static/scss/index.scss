@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import './_intrested.scss';
 @import './indexv2';
+@import './_firstdegree.scss';
 
 $text-color: #002147;
 
@@ -40,8 +41,11 @@ body {
     flex-direction: row;
     position: absolute;
     top:0;
+    background-color: #002147;
+    color: whitesmoke;
     p {
         margin-right: 20px;
+        margin-left: 20px;
     }
 }
 nav {
