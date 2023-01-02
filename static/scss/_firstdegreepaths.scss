@@ -1,0 +1,84 @@
+.lightning {
+    background-image: url(../images/lightning-3652193_640.jpg);
+}
+
+.binary {
+    background-image: url(../images/binary-2910663_1920.jpg);
+}
+
+.physics {
+    background-image: url(../images/albert-einstein-1933340_1280.jpg);
+
+    h2 {
+        font-size: 1vw;
+    }
+}
+
+.ece {
+    background-image: url(../images/binary-code-6404957_1920.jpg);
+}
+
+.custom-card{
+    // background-image: url(../images/lightning-3652193_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        
+        top:0;
+        
+    }
+    h2{
+        padding: 25px;
+        color: #ffffff;
+        text-shadow: 2px 2px 5px   black;
+        text-align: center;
+        font-weight: 500;
+        margin: 0px;
+       
+    }
+    p{
+        
+        color: #2d354d;
+        font-weight: 500;
+    }
+
+    button{
+        border: 1px #ffffff solid;
+    }
+    .card-paragraph{
+        color: white;
+    }
+}
+
+.dropdown-content {
+    min-width: 20%;
+    max-width: 100%;
+    padding-bottom: 50px;
+    p{
+        font-size: 1.1vw;
+        padding: 25px;
+    }
+
+    iframe{
+        width: 100%;
+        height: 500px;
+        padding: 25px;
+    }
+
+    img{
+        position: relative;
+        width: 100%;
+        padding: 25px;
+    }
+}
+
+// .w3-show{
+//     display: flex !important;
+//     flex-direction: column !important;
+// }

@@ -304,6 +304,25 @@
   flex-direction: column;
   position: relative;
 }
+.first-degree-home a {
+  text-decoration: none;
+}
+.first-degree-home a:visited {
+  color: black;
+}
+.first-degree-home h3 {
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  color: #3878AC;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+.first-degree-home p {
+  color: #2d354d;
+  font-size: 1.12vw;
+  font-weight: 300;
+  text-align: justify;
+}
 .first-degree-home header {
   z-index: -10;
   padding: 0px;
@@ -390,6 +409,140 @@
 .first-degree-home .content .right-container ul li:hover {
   background-color: #29a9dd;
   color: white;
+}
+.first-degree-home .faculty-uniqueness {
+  display: flex;
+}
+.first-degree-home .faculty-uniqueness .right-container {
+  width: 50%;
+  padding-right: 20px;
+}
+.first-degree-home .faculty-uniqueness .right-container iframe {
+  width: 100%;
+  height: 300px;
+}
+.first-degree-home .faculty-uniqueness .left-container {
+  width: 50%;
+  padding-left: 20px;
+}
+.first-degree-home .faculty-uniqueness .left-container ul {
+  margin-top: 0px;
+}
+.first-degree-home .faculty-uniqueness .left-container ul li {
+  text-align: justify;
+  list-style-image: url(../images/list-image.png);
+  color: #2d354d;
+  font-size: 1vw;
+  font-weight: 300;
+}
+.first-degree-home .employment {
+  display: flex;
+}
+.first-degree-home .employment .right-container {
+  width: 50%;
+  padding-right: 20px;
+}
+.first-degree-home .employment .right-container iframe {
+  width: 100%;
+  height: 300px;
+}
+.first-degree-home .employment .left-container {
+  width: 50%;
+  padding-left: 20px;
+}
+.first-degree-home .employment .left-container p {
+  margin: 0px;
+}
+.first-degree-home .ending {
+  padding: 20px;
+}
+.first-degree-home .ending ul {
+  margin-top: 0px;
+  margin: 0px;
+  padding: 20px;
+}
+.first-degree-home .ending ul li {
+  text-align: justify;
+  list-style-image: url(../images/list-image.png);
+  color: #2d354d;
+  font-size: 1.2vw;
+  font-weight: 300;
+  margin-top: 20px;
+}
+.first-degree-home .ending iframe {
+  width: 100%;
+  min-height: 20vh;
+  height: 50vh;
+}
+
+.lightning {
+  background-image: url(../images/lightning-3652193_640.jpg);
+}
+
+.binary {
+  background-image: url(../images/binary-2910663_1920.jpg);
+}
+
+.physics {
+  background-image: url(../images/albert-einstein-1933340_1280.jpg);
+}
+.physics h2 {
+  font-size: 1vw;
+}
+
+.ece {
+  background-image: url(../images/binary-code-6404957_1920.jpg);
+}
+
+.custom-card {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.custom-card img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.custom-card h2 {
+  padding: 25px;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px black;
+  text-align: center;
+  font-weight: 500;
+  margin: 0px;
+}
+.custom-card p {
+  color: #2d354d;
+  font-weight: 500;
+}
+.custom-card button {
+  border: 1px #ffffff solid;
+}
+.custom-card .card-paragraph {
+  color: white;
+}
+
+.dropdown-content {
+  min-width: 20%;
+  max-width: 100%;
+  padding-bottom: 50px;
+}
+.dropdown-content p {
+  font-size: 1.1vw;
+  padding: 25px;
+}
+.dropdown-content iframe {
+  width: 100%;
+  height: 500px;
+  padding: 25px;
+}
+.dropdown-content img {
+  position: relative;
+  width: 100%;
+  padding: 25px;
 }
 
 body {
