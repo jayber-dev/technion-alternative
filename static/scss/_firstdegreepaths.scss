@@ -14,6 +14,10 @@
     }
 }
 
+.info{
+    background-image:url(../images/question-mark-3255118_1280.jpg);
+}
+
 .ece {
     background-image: url(../images/binary-code-6404957_1920.jpg);
 }
@@ -63,6 +67,8 @@
     p{
         font-size: 1.1vw;
         padding: 25px;
+        margin: 0px;
+        
     }
 
     iframe{
@@ -76,8 +82,22 @@
         width: 100%;
         padding: 25px;
     }
+
+    
 }
 
+.p-info{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+.p-link{
+    font-size: large;
+    color:#29A9DD !important;
+}
+
+.p-link:visited{
+    color: #29A9DD !important;
+}
 // .w3-show{
 //     display: flex !important;
 //     flex-direction: column !important;
