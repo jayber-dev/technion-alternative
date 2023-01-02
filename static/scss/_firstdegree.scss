@@ -45,6 +45,37 @@
     flex-direction: row;
     .left-container {
         width: 70%;
+        background-color: white;
+        margin-right: 25px;
+
+        .videos{
+            display: flex;
+            flex-direction: row;
+
+            .video{
+                margin-top: 20px;
+                margin-right: 20px;
+                margin-left: 20px;
+                width: 33%;
+                
+                iframe {
+                    width: 100%;
+                }
+
+                small {
+                    font-size: 0.7vw;
+                }
+            }
+        }
+
+        .course-offerings {
+            padding: 20px;
+            p {
+                color: #2d354d;
+                font-size: 1.15vw;
+                font-weight: 300;
+            }
+        }
     }
 
     .right-container {

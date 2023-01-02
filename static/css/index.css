@@ -196,16 +196,19 @@
   padding: 10px;
 }
 .events-seminars .events .event-list .event .right p {
+  font-size: 1vw;
   margin: 0px;
   margin-left: 20px;
 }
 .events-seminars .events .event-list .event .right h2 {
+  font-size: 1.6vw;
   margin: 0px;
   margin-left: 20px;
   color: #29a9dd;
   padding: 0px;
 }
 .events-seminars .events .event-list .event .right small {
+  font-size: 0.8vw;
   margin-left: 20px;
   color: #b0c0d1;
 }
@@ -257,17 +260,20 @@
   padding: 10px;
 }
 .events-seminars .seminars .seminar-list .seminar .right p {
+  font-size: 1vw;
   color: white;
   margin: 0px;
   margin-left: 20px;
 }
 .events-seminars .seminars .seminar-list .seminar .right h2 {
+  font-size: 1.6vw;
   margin: 0px;
   margin-left: 20px;
   color: white;
   padding: 0px;
 }
 .events-seminars .seminars .seminar-list .seminar .right small {
+  font-size: 0.8vw;
   margin-left: 20px;
   color: #b0c0d1;
 }
@@ -337,6 +343,32 @@
 }
 .first-degree-home .content .left-container {
   width: 70%;
+  background-color: white;
+  margin-right: 25px;
+}
+.first-degree-home .content .left-container .videos {
+  display: flex;
+  flex-direction: row;
+}
+.first-degree-home .content .left-container .videos .video {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 33%;
+}
+.first-degree-home .content .left-container .videos .video iframe {
+  width: 100%;
+}
+.first-degree-home .content .left-container .videos .video small {
+  font-size: 0.7vw;
+}
+.first-degree-home .content .left-container .course-offerings {
+  padding: 20px;
+}
+.first-degree-home .content .left-container .course-offerings p {
+  color: #2d354d;
+  font-size: 1.15vw;
+  font-weight: 300;
 }
 .first-degree-home .content .right-container {
   width: 30%;
@@ -365,8 +397,8 @@ body {
   font-family: "Heebo", sans-serif;
   font-weight: 500;
   letter-spacing: unset;
-  padding-left: 12%;
-  padding-right: 12%;
+  padding-left: 12vw;
+  padding-right: 12vw;
   padding-top: 4%;
   box-sizing: border-box;
   background-color: #f7f7f7;

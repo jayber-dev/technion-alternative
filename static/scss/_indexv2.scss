@@ -151,18 +151,20 @@ $border-diamensions: 1px solid rgba(128, 128, 128, 0.123);
                     align-items: flex-end;
                     padding: 10px;
                     p{
+                        font-size: 1vw;
                         margin: 0px;
                         margin-left: 20px;    
                     }
 
                     h2 {
+                        font-size: 1.6vw;
                         margin: 0px;
                         margin-left: 20px;       
                         color:#29a9dd;
                         padding: 0px;
                     }
                     small {   
-                        
+                        font-size: 0.8vw;
                         margin-left: 20px;
                         color: #b0c0d1 ;
                     }
@@ -223,19 +225,21 @@ $border-diamensions: 1px solid rgba(128, 128, 128, 0.123);
                     align-items: flex-end;
                     padding: 10px;
                     p{
+                        font-size: 1vw;
                         color: white;
                         margin: 0px;
                         margin-left: 20px;    
                     }
 
                     h2 {
+                        font-size: 1.6vw;
                         margin: 0px;
                         margin-left: 20px;       
                         color:white;
                         padding: 0px;
                     }
                     small {   
-                        
+                        font-size: 0.8vw;
                         margin-left: 20px;
                         color: #b0c0d1  ;
                     }
