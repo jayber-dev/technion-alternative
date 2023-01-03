@@ -18,7 +18,18 @@
                 object-fit: cover;
                 opacity: 0.8;
             }
-            
+            ul{
+                margin-top: 0px;
+                font-size: 2vw;
+                li{
+                    
+                    text-align: justify;
+                    list-style-image: url(../images/list-image.png);
+                    color: #2d354d;
+                    font-size: 1vw;
+                    font-weight: 300; 
+                }
+            }
             p {  
                 display: flex;
                 align-items: center;
