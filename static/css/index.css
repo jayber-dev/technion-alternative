@@ -621,7 +621,7 @@
   width: 100vw;
   height: 250px;
   z-index: 1;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(15, 52, 100, 0.918));
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(15, 52, 100));
 }
 .second-degree-home .content {
   display: flex;
