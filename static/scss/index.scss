@@ -3,6 +3,8 @@
 @import './indexv2';
 @import './_firstdegree.scss';
 @import './firstdegreepaths';
+@import './second-degree';
+@import './second-degree-paths';
 
 $text-color: #002147;
 
@@ -16,6 +18,17 @@ body {
     padding-top: 4%;
     box-sizing: border-box;
     background-color: #f7f7f7;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    li {
+        list-style: none;
+        margin-left: 5px;
+    }
 }
 
 .banner-text {
