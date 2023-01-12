@@ -64,16 +64,50 @@
   font-size: 2.5vw;
 }
 
-.main-links-container {
+.secondary-links-container {
   height: 150px;
   display: flex;
   flex-direction: row;
   margin-bottom: 25px;
 }
+.secondary-links-container .main-links {
+  box-shadow: 1px 1px 5px 1px grey;
+  margin: 5px;
+  background-color: bisque;
+  position: relative;
+}
+.secondary-links-container .main-links img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.secondary-links-container .main-links p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  color: whitesmoke;
+  font-size: 3.5vw;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin: auto;
+  text-shadow: 2px 2px 5px black;
+}
+.secondary-links-container .main-links .registered-students {
+  font-size: 2.5vw;
+}
+
+.main-links-container {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
 .main-links-container .main-links {
   box-shadow: 1px 1px 5px 1px grey;
-  width: 33%;
-  height: auto;
   margin: 5px;
   background-color: bisque;
   position: relative;
@@ -103,6 +137,8 @@
 }
 
 .news-section {
+  display: flex;
+  flex-direction: row;
   width: 100%;
   height: 500px;
   background-color: white;
@@ -782,6 +818,36 @@ section {
   color: #29A9DD !important;
 }
 
+.contact-form {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+}
+.contact-form .right-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-form .right-container form {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  width: 50%;
+}
+.contact-form .right-container form input {
+  border: 1px solid #315277 !important;
+  margin: 10px;
+}
+.contact-form .right-container form textarea {
+  margin: 10px;
+}
+.contact-form .left-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
 body {
   direction: rtl;
   font-family: "Heebo", sans-serif;
@@ -792,6 +858,12 @@ body {
   padding-top: 4%;
   box-sizing: border-box;
   background-color: #f7f7f7;
+}
+
+.drop {
+  padding: 10px;
+  box-shadow: 0 1px 2px 1px grey;
+  margin-left: 20px;
 }
 
 .nav-list {

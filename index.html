@@ -43,90 +43,109 @@
         <ul>
           <li>אודות</li>
           <li>מחקר</li>
+          <li><a href="https://ece.technion.ac.il/ece-women/?lang=he" style="color:red">  קהילת נשות הטכניון</a></li>
+
           <!-- <li><a href="./intrested.html"> לימודי תואר</a></li> -->
           <li>קשרי תעשיה</li>
           <li>אנשים</li>
           <li>אירועים</li>
           <li>מדיה</li>
-          <li>צור קשר</li>
+          <li>
+            <div class="w3-dropdown-hover" style="background-color: transparent;">
+              צור קשר
+              <div class="w3-dropdown-content" style="width:300px;z-index: 100;">
+                <div class="drop">
+                  <a href="./views/menu-contact-us/contact-form.html">צור קשר</a>
+                </div>
+                <div class="drop">
+                  דרכי הגעה
+                </div>  
+              </div>
+            </div>
+            
+          </li>
         </ul>
       </div>
     </nav>
-    <div class="main-links-container">
-      <div class="main-links">
-        <img src="../static/images/lightning-3652193_640.jpg" alt="" />
-        <a href="./views/intrested/intrested.html"><p>מעוניינים</p></a>
-      </div>
-      <div class="main-links">
-        <img src="../static/images/adult-education-2706977_640.jpg" alt="" />
-        <a href="./views/existing-students/e-menu.html"><p class="registered-students">סטודנטים רשומים </p></a>
-      </div>
-      <div class="main-links">
-        <img src="../static/images/board-4444443_640.jpg" alt="" />
-        <a href="https://ece.technion.ac.il/%d7%97%d7%91%d7%a8%d7%99-%d7%a1%d7%92%d7%9c-%d7%95%d7%9e%d7%a0%d7%94%d7%9c%d7%94/?lang=he"><p>סגל אקדמי</p></a>
-      </div>
-    </div>
+    
     <section class="news-section">
-      <div class="news-header">
-        <h1>חדשות</h1>
-        <p>
-          כל החדשות
-          <img src="../static/images/iconmonstr-arrow-left-thin.svg" alt="" />
-        </p>
+      <div class="main-links-container">
+        <div class="main-links">
+          <img src="../static/images/lightning-3652193_640.jpg" alt="" />
+          <a href="./views/intrested/intrested.html"><p>מעוניינים</p></a>
+        </div>
+        <div class="main-links">
+          <img src="../static/images/adult-education-2706977_640.jpg" alt="" />
+          <a href="./views/existing-students/e-menu.html"><p class="registered-students">סטודנטים רשומים </p></a>
+        </div>
+        <div class="main-links">
+          <img src="../static/images/board-4444443_640.jpg" alt="" />
+          <a href="https://ece.technion.ac.il/%d7%97%d7%91%d7%a8%d7%99-%d7%a1%d7%92%d7%9c-%d7%95%d7%9e%d7%a0%d7%94%d7%9c%d7%94/?lang=he"><p>סגל אקדמי</p></a>
+        </div>
       </div>
-      <div class="news-card-wrapper">
-        <div class="news-items">
-          <div class="news-item-card">
-            <div class="news-item">
-              <img
-                src="../static/images/חדשות-ארז-זולקוב-זכה-בפרס-שני-425x230.png"
-                alt=""
-              />
+      <div class="news-wrapper">
+        <div class="news-header">
+          <h1>חדשות</h1>
+          <p>
+            כל החדשות
+            <img src="../static/images/iconmonstr-arrow-left-thin.svg" alt="" />
+          </p>
+        </div>
+        <div class="news-card-wrapper">
+          <div class="news-items">
+            <!-- <div class="news-item-card">
+              <div class="news-item">
+                <img
+                  src="../static/images/חדשות-ארז-זולקוב-זכה-בפרס-שני-425x230.png"
+                  alt=""
+                />
+              </div>
+              <small>דצמ 2022,20</small>
+              <p>
+                ACRC מרכז המחקר לארכיטקטורות ומעגלים קיים את הריטריט השנתי שלו
+                בכפר בלום.
+              </p>
+            </div> -->
+            <div class="news-item-card">
+              <div class="news-item">
+                <img
+                  src="../static/images/חדשות-ACRC-ריטריט-425x230.png"
+                  alt=""
+                />
+              </div>
+              <small>דצמ 2022,20</small>
+              <p>
+                מדי שנה מתקיימת בפקולטה להנדסת חשמל ומחשבים תחרות פרויקט מצטיין
+                פקולטי. ישנם 38 מעבדות הוראה ומחקר בפקולטה והן מכסות את...
+              </p>
             </div>
-            <small>דצמ 2022,20</small>
-            <p>
-              ACRC מרכז המחקר לארכיטקטורות ומעגלים קיים את הריטריט השנתי שלו
-              בכפר בלום.
-            </p>
-          </div>
-          <div class="news-item-card">
-            <div class="news-item">
-              <img
-                src="../static/images/חדשות-ACRC-ריטריט-425x230.png"
-                alt=""
-              />
+            <div class="news-item-card">
+              <div class="news-item">
+                <img src="../static/images/חדשות-פרס-צילג-1-425x230.png" alt="" />
+              </div>
+              <small>דצמ 2022,20</small>
+              <p>
+                פרופ' ענת לוין מהפקולטה להנדסת חשמל ומחשבים ע"ש ויטרבי מקבלת את
+                המענק על SpeckleCorr – טכנולוגיה חדשה לאפיון חומרים, לדימות
+                פלורוסנטי
+              </p>
             </div>
-            <small>דצמ 2022,20</small>
-            <p>
-              מדי שנה מתקיימת בפקולטה להנדסת חשמל ומחשבים תחרות פרויקט מצטיין
-              פקולטי. ישנם 38 מעבדות הוראה ומחקר בפקולטה והן מכסות את...
-            </p>
-          </div>
-          <div class="news-item-card">
-            <div class="news-item">
-              <img src="../static/images/חדשות-פרס-צילג-1-425x230.png" alt="" />
+            <div class="news-item-card">
+              <div class="news-item">
+                <img
+                  src="../static/images/חדשות-עדו-קמינר-זכה-בפרס-אדולף-לומב-425x230.png"
+                  alt=""
+                />
+              </div>
+              <small>דצמ 2022,20</small>
+              <p>ברכות לפרופ' עדו קמינר על הזכייה היוקרתית בפרס אדולף לומב</p>
             </div>
-            <small>דצמ 2022,20</small>
-            <p>
-              פרופ' ענת לוין מהפקולטה להנדסת חשמל ומחשבים ע"ש ויטרבי מקבלת את
-              המענק על SpeckleCorr – טכנולוגיה חדשה לאפיון חומרים, לדימות
-              פלורוסנטי
-            </p>
-          </div>
-          <div class="news-item-card">
-            <div class="news-item">
-              <img
-                src="../static/images/חדשות-עדו-קמינר-זכה-בפרס-אדולף-לומב-425x230.png"
-                alt=""
-              />
-            </div>
-            <small>דצמ 2022,20</small>
-            <p>ברכות לפרופ' עדו קמינר על הזכייה היוקרתית בפרס אדולף לומב</p>
           </div>
         </div>
       </div>
+      
     </section>
-    <div class="main-links-container">
+    <div class="secondary-links-container">
       <div class="main-links">
         <img
           src="https://ece.technion.ac.il/wp-content/uploads/2022/06/ECE-Women-e1654088537871-400x130.png"

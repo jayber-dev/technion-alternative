@@ -12,16 +12,56 @@ $border-diamensions: 1px solid rgba(128, 128, 128, 0.123);
 //     }
 // }
 
-.main-links-container {
-    
+.secondary-links-container{
     height: 150px;
     display: flex;
     flex-direction: row;
     margin-bottom: 25px;
     .main-links{
         box-shadow: 1px 1px 5px 1px grey;
-        width: 33%;
-        height: auto;
+        // width: 33%;
+        // height: 100%;
+        margin: 5px;
+        background-color: bisque;
+        position: relative;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.8;
+        }
+        
+        p {  
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            color: whitesmoke;
+            font-size: 3.5vw;
+            top:0px;
+            right:0px;
+            left: 0px;
+            bottom:0px;
+            margin: auto;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .registered-students {
+            font-size: 2.5vw;
+        }
+    }
+}
+
+.main-links-container {
+    
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    .main-links{
+        box-shadow: 1px 1px 5px 1px grey;
+        // width: 33%;
+        // height: 100%;
         margin: 5px;
         background-color: bisque;
         position: relative;
@@ -55,11 +95,14 @@ $border-diamensions: 1px solid rgba(128, 128, 128, 0.123);
 
 .news-section{
     // margin-top: 25px;
+    display: flex;
+    flex-direction: row;
     width: 100%;
     height: 500px;
     background-color: white;
     position: relative;
     margin-bottom: 25px;
+    
     .news-header {
         color: $text-color;
         display: flex;
