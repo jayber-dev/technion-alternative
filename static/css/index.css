@@ -72,6 +72,8 @@
 }
 .secondary-links-container .main-links {
   box-shadow: 1px 1px 5px 1px grey;
+  width: 33%;
+  height: 100%;
   margin: 5px;
   background-color: bisque;
   position: relative;
@@ -101,13 +103,14 @@
 }
 
 .main-links-container {
-  height: 150px;
   display: flex;
+  width: 40%;
   flex-direction: column;
   margin-bottom: 25px;
 }
 .main-links-container .main-links {
   box-shadow: 1px 1px 5px 1px grey;
+  height: 33%;
   margin: 5px;
   background-color: bisque;
   position: relative;
@@ -124,7 +127,7 @@
   justify-content: center;
   position: absolute;
   color: whitesmoke;
-  font-size: 3.5vw;
+  font-size: 1.5vw;
   top: 0px;
   right: 0px;
   left: 0px;
@@ -133,7 +136,7 @@
   text-shadow: 2px 2px 5px black;
 }
 .main-links-container .main-links .registered-students {
-  font-size: 2.5vw;
+  font-size: 1.3vw;
 }
 
 .news-section {
