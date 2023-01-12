@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 25px;
+  width: 100%;
 }
 .degree-studies-menu .main-links-container .main-links {
   box-shadow: 1px 1px 5px 1px grey;
@@ -127,7 +128,7 @@
   justify-content: center;
   position: absolute;
   color: whitesmoke;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   top: 0px;
   right: 0px;
   left: 0px;
