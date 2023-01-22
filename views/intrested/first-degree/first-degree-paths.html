@@ -233,7 +233,9 @@
             </div>
                 <script>
                     function myFunction(e) {
-                        const card = e.path[3]
+                        console.log(e.target.offsetParent);
+                        
+                        const card = e.target.offsetParent
                         const modal = card.querySelector('.w3-dropdown-content');
                         modal.classList.toggle('w3-show') 
                         if(e.target.textContent === "סגור" ){
