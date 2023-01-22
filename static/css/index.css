@@ -141,6 +141,7 @@
 }
 
 .news-section {
+  margin-top: 25px;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -350,6 +351,107 @@
   white-space: nowrap;
 }
 
+@media only screen and (max-width: 1500px) {
+  .news-section {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    margin-bottom: 25px;
+  }
+  .news-section .main-links-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 25px;
+  }
+  .news-section .main-links-container .main-links {
+    box-shadow: 1px 1px 5px 1px grey;
+    height: 33%;
+    margin: 5px;
+    background-color: bisque;
+    position: relative;
+  }
+  .news-section .main-links-container .main-links img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+  }
+  .news-section .main-links-container .main-links p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: whitesmoke;
+    font-size: 1.2vw;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: auto;
+    text-shadow: 2px 2px 5px black;
+  }
+  .news-section .main-links-container .main-links .registered-students {
+    font-size: 1.3vw;
+  }
+  .news-section .news-header {
+    color: #3878ac;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.123);
+  }
+  .news-section .news-header h1 {
+    padding: 20px;
+    padding-right: 25px;
+    margin: 0px;
+    font-weight: 600;
+  }
+  .news-section .news-header p {
+    padding: 20px;
+    padding-left: 25px;
+    font-size: larger;
+  }
+  .news-section .news-header img {
+    width: 15px;
+  }
+  .news-section .news-card-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  .news-section .news-card-wrapper .news-items {
+    display: flex;
+    flex-direction: row;
+  }
+  .news-section .news-card-wrapper .news-items .news-item-card {
+    height: 100%;
+    width: 33%;
+    margin: 5px;
+  }
+  .news-section .news-card-wrapper .news-items .news-item-card img {
+    width: 100%;
+  }
+  .news-section .news-card-wrapper .news-items .news-item-card:last-child {
+    display: none;
+    height: 100%;
+    width: 24%;
+    margin: 5px;
+  }
+  .news-section .news-card-wrapper .news-items .news-item-card:last-child img {
+    width: 100%;
+  }
+  .news-section .news-card-wrapper .news-items .news-item-card:first-child {
+    margin-right: 25px;
+  }
+  .news-section .news-card-wrapper .news-items .news-item-card:last-child {
+    margin-left: 25px;
+  }
+}
 .first-degree-home {
   display: flex;
   flex-direction: column;
