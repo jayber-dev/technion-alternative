@@ -176,19 +176,20 @@
                 </div>
             </div>
             <p>לכל שאלה ופניה נוספת צרו קשר עם מזכירות תארים מתקדמים בפקולטה.</p>
-                <script>
-                    function myFunction(e) {
-                        const card = e.path[3]
-                        const modal = card.querySelector('.w3-dropdown-content');
-                        modal.classList.toggle('w3-show') 
-                        if(e.target.textContent === "סגור" ){
-                            e.target.textContent = "קרא עוד" 
-                        } else {
-                            e.target.textContent = "סגור"   
-                        }
-                              
+            <script>
+                function myFunction(e) {
+                    console.log(e.target.offsetParent);
+                    
+                    const card = e.target.offsetParent
+                    const modal = card.querySelector('.w3-dropdown-content');
+                    modal.classList.toggle('w3-show') 
+                    if(e.target.textContent === "סגור" ){
+                        e.target.textContent = "קרא עוד" 
+                    } else {
+                        e.target.textContent = "סגור"   
                     }
-                </script>
+                }
+            </script>
         </div>
         
     </section>
